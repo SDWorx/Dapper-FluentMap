@@ -15,7 +15,7 @@
     <PackageReleaseNotes>Sign Dapper - FluentMap</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\SignKey.snk</AssemblyOriginatorKeyFile> 
+    <AssemblyOriginatorKeyFile>..\..\SignKey.snk</AssemblyOriginatorKeyFile> 
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Dapper.StrongName" Version="2.1.66" />
