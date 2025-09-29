@@ -7,13 +7,15 @@
     <PackageId>Dapper.FluentMap.StrongName</PackageId>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageTags>c#;dapper;mapping;fluentmap</PackageTags>
     <PackageProjectUrl>https://github.com/henkmollema/Dapper-FluentMap</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/henkmollema/Dapper-FluentMap/blob/master/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes>Sign Dapper - FluentMap</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\SignKey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\SignKey.snk</AssemblyOriginatorKeyFile> 
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Dapper.StrongName" Version="2.1.66" />
